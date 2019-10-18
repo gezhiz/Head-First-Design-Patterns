@@ -1,5 +1,8 @@
 package headfirst.designpatterns.command.party;
 
+/**
+ * 巨大的命令类：用来执行一簇命令
+ */
 public class MacroCommand implements Command {
 	Command[] commands;
  
