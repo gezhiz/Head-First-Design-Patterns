@@ -27,6 +27,11 @@ public class DuckTestDrive {
 		testDuck(droneAdapter);
 	}
 
+	/**
+	 * 可以传入Duck对象，或者DuckAdapter对象
+	 *  此接口只支持Duck对象，而Turkey类型的类无法使用，使用DuckAdapter包装Turkey，进行适配
+	 * @param duck
+	 */
 	static void testDuck(Duck duck) {
 		duck.quack();
 		duck.fly();
